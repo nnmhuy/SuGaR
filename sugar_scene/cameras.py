@@ -409,6 +409,7 @@ def convert_camera_from_pytorch3d_to_gs(
             image_name=name, uid=cam_idx,
             image_height=image_height, 
             image_width=image_width,
+            data_device='cpu',
             )
         gs_cameras.append(camera)
 

@@ -22,7 +22,7 @@ class ModelParams():
         self.images = "images"
         self.resolution = -1
         self.white_background = False
-        self.data_device = "cuda"
+        self.data_device = "cpu"
         self.eval = False
     
         
